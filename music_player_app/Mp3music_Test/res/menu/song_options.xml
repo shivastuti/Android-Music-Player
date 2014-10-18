@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_action_search" android:id="@id/action_search_filter" android:title="@string/search_edit_box" android:showAsAction="always|collapseActionView" android:actionViewClass="android.widget.SearchView" />
+    <item android:icon="@drawable/ic_action_replay" android:id="@id/menu_refresh_m" android:orderInCategory="100" android:title="@string/menu_refresh" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_action_settings" android:id="@id/menu_settings" android:orderInCategory="100" android:title="@string/menu_settings" android:showAsAction="never" />
+    <item android:icon="@drawable/ic_action_settings" android:id="@id/menu_downloads" android:orderInCategory="100" android:title="@string/menu_settings" android:showAsAction="always" />
+</menu>

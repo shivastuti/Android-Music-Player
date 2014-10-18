@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light" />
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+    </style>
+    <style name="WindowTitleBackground">
+        <item name="android:background">@color/blue</item>
+    </style>
+    <style name="WindowBackground">
+        <item name="android:background">#ffffffff</item>
+    </style>
+    <style name="AudioFileInfoOverlayText">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:paddingLeft">4.0px</item>
+        <item name="android:paddingBottom">4.0px</item>
+        <item name="android:focusable">true</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="ToolbarBackground">
+        <item name="android:background">@color/blue2</item>
+    </style>
+    <style name="ChooseContactBackground">
+        <item name="android:background">#ffcc9933</item>
+    </style>
+    <style name="VerticalDividerForList">
+        <item name="android:background">#ff444444</item>
+        <item name="android:layout_width">1.0px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">4.0px</item>
+    </style>
+    <style name="VerticalDividerLeft">
+        <item name="android:background">#ff666677</item>
+        <item name="android:layout_width">1.0px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">4.0px</item>
+    </style>
+    <style name="VerticalDividerRight">
+        <item name="android:background">#ff000022</item>
+        <item name="android:layout_width">1.0px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginRight">4.0px</item>
+    </style>
+    <style name="HorizontalDividerTop">
+        <item name="android:background">#ff666677</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+    </style>
+    <style name="HorizontalDividerBottom">
+        <item name="android:background">#ff000022</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+    </style>
+    <style name="FP">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="SettingsHeader" parent="@style/FpWc">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">@dimen/settings_padding_tb</item>
+        <item name="android:paddingBottom">@dimen/settings_padding_tb</item>
+        <item name="android:layout_marginLeft">@dimen/settings_margin_lr</item>
+        <item name="android:layout_marginRight">@dimen/settings_margin_lr</item>
+    </style>
+    <style name="SettingsRow" parent="@style/FpWc">
+        <item name="android:background">@drawable/settings_row_bg</item>
+        <item name="android:paddingLeft">@dimen/settings_margin_lr_half</item>
+        <item name="android:paddingTop">@dimen/settings_padding_tb</item>
+        <item name="android:paddingRight">@dimen/settings_margin_lr_half</item>
+        <item name="android:paddingBottom">@dimen/settings_padding_tb</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_marginLeft">@dimen/settings_margin_lr</item>
+        <item name="android:layout_marginRight">@dimen/settings_margin_lr</item>
+        <item name="android:minHeight">60.0dip</item>
+    </style>
+    <style name="SettingsVersionCode" parent="@style/FpWc">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff999999</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:layout_marginTop">32.0dip</item>
+    </style>
+    <style name="SettingsItemLabel" parent="@style/SettingsPrimaryText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/settings_margin_lr</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="SettingsPrimaryText" parent="@style/WC">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="WC">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SettingsDividerPrimary">
+        <item name="android:background">#ff999999</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2.0dip</item>
+        <item name="android:layout_marginLeft">@dimen/settings_margin_lr</item>
+        <item name="android:layout_marginRight">@dimen/settings_margin_lr</item>
+    </style>
+    <style name="SettingsDividerSecondary" parent="@style/SettingsDividerPrimary">
+        <item name="android:background">#ffcccccc</item>
+        <item name="android:layout_height">0.6dip</item>
+    </style>
+    <style name="FpWc">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="customTheme" parent="@style/AppTheme">
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+    </style>
+</resources>

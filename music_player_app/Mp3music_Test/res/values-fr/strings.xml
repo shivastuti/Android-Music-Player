@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mp3Skull Music Download</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home_tittle">Hochschule Darmstadt</string>
+    <string name="icon_text_description">Menu Icon</string>
+    <string name="found">RESULTAT:</string>
+    <string name="track">MORCEAUX</string>
+    <string name="sorry">Desolé. Aucun resultats trouvé. Veuillez utiliser des expressions simple.Par Ex: \"Booba garde\" au lieu de \"Booba garde la pêche\"</string>
+    <string name="pag_prev">Previous</string>
+    <string name="action_starred">Markieren</string>
+    <string name="unsatisfy">Insatisfait? Essayer un autre Serveur</string>
+    <string name="suggestions">Proposer des suggestion pendant que vous tappez le text</string>
+    <string name="server2">Connexion au serveur 2...</string>
+    <string name="load_more">CHARGER PLUS...</string>
+    <string name="pag_next">Next</string>
+    <string name="titel_hint" />
+    <string name="rate_this">Donner une Note</string>
+    <string name="no_starred_book">"Sie haben noch kein Buch vorgemerk.
+Klicken Sie auf das gelbe Sterne um ein Buch vorzumerken."</string>
+    <string name="please_wait">Patientez SVP...</string>
+    <string name="titel">Titel</string>
+    <string name="verfasser">Verfasser</string>
+    <string name="verfasser_hint">Nachname, Vorname</string>
+    <string name="ISBN">ISBN</string>
+    <string name="jahr">Jahr</string>
+    <string name="error_result">"La connexion a echouée.
+Veuillez verifier votre Internet et essayer encore."</string>
+    <string name="setting_label">PARAMETRES</string>
+    <string name="go_search">Suchen</string>
+    <string name="jahr_von">von</string>
+    <string name="jahr_bis">bis</string>
+    <string name="input_hint">Artiste, Titre, Album...</string>
+    <string name="menu_settings">Parametres</string>
+    <string name="search_results">Suchergebnisse</string>
+    <string name="quit">"Voulez-vous vraiment quitter l'Application?"</string>
+    <string name="exit">Quitter</string>
+    <string name="menu_refresh">Rafaîchir la Library</string>
+    <string name="search">RECHERCHER</string>
+    <string name="download">TELECHARGER</string>
+    <string name="redownload_mess">"Vous avez deja telechargé ce morceau.
+Voulez-vous le retellecharger?"</string>
+    <string name="downloading">Telechargement...</string>
+    <string name="yes">OUI</string>
+    <string name="no">NON</string>
+    <string name="no_internet">Verifiez votre Internet!</string>
+    <string name="cleared">Historique éffacé</string>
+    <string name="clear_confirm_mess">"Voulez-vous vraiment effacer l'historique?
+Rappelez-vous que l'Application ne vous informera pas en cas de telechargement d'un morceau deja telechargé auparavant"</string>
+    <string name="clear_hist_dial_titel">Effacer Historique</string>
+    <string name="updating_lib">Mise a jour de la Librarie...</string>
+    <string name="rep_bug">Signaler un Bug</string>
+    <string name="lib_rescan">Rafraichir Votre Bibliotheque</string>
+    <string name="clear_histo">Effacer Historique</string>
+    <string name="account">Konto</string>
+    <string name="entl_head">ENTLIEHEN</string>
+    <string name="reservations_head">VORBESTELLUNGEN</string>
+    <string name="accept">OK</string>
+    <string name="anzahl_ergebnisse_label">Gefunden:</string>
+    <string name="no_book_label">Kein Trefer</string>
+    <string name="eula">
+        The official permitted use of this software is restricted to the audio files freely available in public domain! You agree to use this software in terms and frames as specified by the Laws of your country of residence, the Google Android Market and your carriers Terms of Services. No Mp3 files are cached or stored on our servers, all data comes from various different sources on the internet. Do not download copyrighted material without permission. we are simply a music search engine designed for LEGAL entertainment purposes only. An illegal use of this tool is strictly phobted. You alone are responsible for your actions.
+    </string>
+</resources>

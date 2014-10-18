@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <FrameLayout android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <AutoCompleteTextView android:textSize="21.0sp" android:textColor="@color/blue" android:id="@id/editText1" android:layout_width="fill_parent" android:layout_height="55.0dip" android:hint="@string/input_hint" android:ems="10" android:singleLine="true" />
+            <Button android:layout_gravity="right|center" android:id="@id/clear_input" android:background="@drawable/content_remove" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginRight="10.0dip" />
+        </FrameLayout>
+        <Button android:gravity="center" android:id="@id/button1" android:background="@drawable/nice_button" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" android:text="@string/search" />
+        <com.google.ads.AdView android:gravity="center" android:id="@id/ad" android:layout_width="fill_parent" android:layout_height="wrap_content" ads:adSize="BANNER" ads:adUnitId="a151a45aa5add8c" ads:loadAdOnCreate="true" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ffffffff" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:drawableBottom="@drawable/section_header" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ListView android:id="@id/listView1" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingBottom="50dip" android:cacheColorHint="#00000000" android:drawableBottom="@drawable/section_header" android:layout_above="@id/button1" android:layout_below="@id/textView1" android:layout_alignParentLeft="true" android:fastScrollEnabled="true" />
+    <com.google.ads.AdView android:gravity="center" android:id="@id/ad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" ads:adSize="BANNER" ads:adUnitId="a152751d7d62317" ads:loadAdOnCreate="true" />
+</RelativeLayout>

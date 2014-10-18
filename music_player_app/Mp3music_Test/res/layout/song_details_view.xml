@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:typeface="sans" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Large Text" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:typeface="sans" android:textStyle="bold" android:textColor="#ff04aeda" android:gravity="center" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Medium Text" android:layout_below="@id/textView1" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+    <Button android:id="@id/button1" android:background="@drawable/nice_button" android:layout_width="wrap_content" android:layout_height="68.0dip" android:layout_margin="9.0dip" android:text="@string/download" android:layout_below="@id/textView2" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+    <com.google.ads.AdView android:gravity="bottom|center" android:id="@id/ad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/button1" ads:adSize="BANNER" ads:adUnitId="a152751d7d62317" ads:loadAdOnCreate="true" />
+    <Button android:id="@id/Button01" android:background="@drawable/nice_button" android:layout_width="wrap_content" android:layout_height="68.0dip" android:layout_marginLeft="9.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="9.0dip" android:text="@string/preview" android:layout_below="@id/ad" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <Button android:layout_gravity="center_vertical" android:id="@id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="?android:attr/buttonStyleSmall" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:typeface="sans" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/textView3" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+            <SeekBar android:id="@id/seekBar1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/FP"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:orientation="vertical" style="@style/FP">
+        <LinearLayout android:orientation="vertical" style="@style/FP">
+            <TextView android:text="@string/setting_label" style="@style/SettingsHeader" />
+            <View style="@style/SettingsDividerPrimary" />
+            <View style="@style/SettingsDividerSecondary" />
+            <RelativeLayout android:id="@id/safeModeRow" style="@style/SettingsRow">
+                <CheckBox android:id="@id/safeModeBtn" android:layout_marginLeft="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/WC" />
+                <TextView android:id="@id/safeModeLabel" android:text="Sort by Bitrate" android:layout_toLeftOf="@id/safeModeBtn" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/SettingsPrimaryText" />
+            </RelativeLayout>
+            <View style="@style/SettingsDividerSecondary" />
+            <View style="@style/SettingsDividerSecondary" />
+            <RelativeLayout android:id="@id/socialSettingRow" style="@style/SettingsRow">
+                <TextView android:id="@id/socialSettingsLabel" android:text="Clear History" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/SettingsPrimaryText" />
+            </RelativeLayout>
+            <View style="@style/SettingsDividerSecondary" />
+            <RelativeLayout android:id="@id/dl_mode" style="@style/SettingsRow">
+                <Spinner android:id="@id/spinner" android:layout_marginLeft="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/WC" />
+                <TextView android:id="@id/clear_histo_label" android:text="Download Mode" android:layout_toLeftOf="@id/spinner" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/SettingsPrimaryText" />
+            </RelativeLayout>
+            <View style="@style/SettingsDividerSecondary" />
+            <RelativeLayout android:id="@id/chooseFolder" android:layout_height="90.0dip" android:layout_weight="0.39" style="@style/SettingsRow">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/blue" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:text="Folder" android:layout_alignLeft="@id/label_folder" android:layout_alignParentBottom="true" />
+                <TextView android:id="@id/label_folder" android:text="Download Directory" android:layout_above="@id/textView1" android:layout_alignParentLeft="true" style="@style/SettingsPrimaryText" />
+            </RelativeLayout>
+            <View style="@style/SettingsDividerSecondary" />
+            <TextView android:layout_marginTop="@dimen/settings_header_sep" android:text="SOCIAL" style="@style/SettingsHeader" />
+            <View style="@style/SettingsDividerPrimary" />
+            <RelativeLayout android:id="@id/follow_me" style="@style/SettingsRow">
+                <ImageView android:id="@id/twitter_button" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/twitter_logo" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/WC" />
+                <TextView android:id="@id/follow_me_text" android:text="Follow Me on Twitter" android:layout_toLeftOf="@id/twitter_button" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/SettingsPrimaryText" />
+            </RelativeLayout>
+            <View style="@style/SettingsDividerSecondary" />
+            <RelativeLayout android:id="@id/rateUS" style="@style/SettingsRow">
+                <TextView android:id="@id/google_play_text" android:text="Please Rate this App" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/SettingsPrimaryText" />
+            </RelativeLayout>
+            <View style="@style/SettingsDividerSecondary" />
+            <RelativeLayout android:id="@id/clearCacheRow_c" style="@style/SettingsRow">
+                <TextView android:text="Contact Me" style="@style/SettingsItemLabel" />
+            </RelativeLayout>
+            <View style="@style/SettingsDividerSecondary" />
+            <RelativeLayout android:id="@id/clearCacheRow_s" style="@style/SettingsRow">
+                <TextView android:text="Share this App" style="@style/SettingsItemLabel" />
+            </RelativeLayout>
+            <View style="@style/SettingsDividerSecondary" />
+            <TextView android:id="@id/versionText" style="@style/SettingsVersionCode" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

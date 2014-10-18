@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_item_padding">10.0dip</dimen>
+    <dimen name="menu_header_padding_top">8.0dip</dimen>
+    <dimen name="menu_header_line">3.0dip</dimen>
+    <dimen name="menu_icon_side">40.0dip</dimen>
+    <dimen name="sliding_menu_touch_threshold">160.0dip</dimen>
+    <dimen name="indicator_right_padding">10.0dip</dimen>
+    <dimen name="indicator_corner_radius">12.0dip</dimen>
+    <dimen name="indicator_internal_padding">4.0dip</dimen>
+    <dimen name="header_footer_left_right_padding">24.0dip</dimen>
+    <dimen name="header_footer_top_bottom_padding">12.0dip</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_width">64.0dip</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_height">64.0dip</dimen>
+    <dimen name="com_facebook_loginview_padding_left">42.0dip</dimen>
+    <dimen name="com_facebook_loginview_padding_right">0.0dip</dimen>
+    <dimen name="com_facebook_loginview_padding_top">0.0dip</dimen>
+    <dimen name="com_facebook_loginview_padding_bottom">0.0dip</dimen>
+    <dimen name="com_facebook_loginview_width">205.0dip</dimen>
+    <dimen name="com_facebook_loginview_height">44.0dip</dimen>
+    <dimen name="com_facebook_loginview_text_size">16.0sp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50.0dip</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100.0dip</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180.0dip</dimen>
+    <dimen name="actionbar_height">48.0dip</dimen>
+    <item type="dimen" name="actionbar_left_btn_width">@dimen/actionbar_height</item>
+    <dimen name="actionbar_btn_padding">20.0dip</dimen>
+    <dimen name="fancy_dialog_backdrop_padding">16.0dip</dimen>
+    <dimen name="fancy_dialog_padding">30.0dip</dimen>
+    <dimen name="fancy_dialog_rounded_corner_radius">4.0dip</dimen>
+    <dimen name="fancy_dialog_min_margin">10.0dip</dimen>
+    <dimen name="fp">-1.0dip</dimen>
+    <dimen name="wc">-2.0dip</dimen>
+    <dimen name="slidingmenu_offset">80.0dip</dimen>
+    <dimen name="sliding_menu_divider_height">6.0dip</dimen>
+    <dimen name="sliding_menu_line_height">2.0dip</dimen>
+    <dimen name="sliding_menu_shadow_width">15.0dip</dimen>
+    <dimen name="sliding_menu_width">250.0dip</dimen>
+    <item type="dimen" name="post_list_item_width">@dimen/fp</item>
+    <dimen name="post_list_item_padding_lr">12.0dip</dimen>
+    <dimen name="post_list_item_padding_tb">12.0dip</dimen>
+    <dimen name="post_list_item_icon_padding_tb">2.0dip</dimen>
+    <dimen name="post_list_item_icon_padding_lr">2.0dip</dimen>
+    <dimen name="settings_margin_lr">16.0dip</dimen>
+    <dimen name="settings_margin_lr_half">8.0dip</dimen>
+    <dimen name="settings_padding_tb">8.0dip</dimen>
+    <dimen name="settings_header_sep">24.0dip</dimen>
+    <dimen name="warning_overlay_height">40.0dip</dimen>
+    <dimen name="splash_layout_width">250.0dip</dimen>
+    <dimen name="splash_layout_margin_bottom">24.0dip</dimen>
+    <dimen name="profile_username_textsize">18.0sp</dimen>
+    <dimen name="profile_tab_textsize">14.0sp</dimen>
+    <dimen name="profile_description_textsize">13.0sp</dimen>
+    <dimen name="profile_pic_size">80.0dip</dimen>
+    <dimen name="profile_tab_border_height">5.0dip</dimen>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mp3Skull Music Download</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home_tittle">Hochschule Darmstadt</string>
+    <string name="icon_text_description">Menu Icon</string>
+    <string name="found">Ditemukan:</string>
+    <string name="track">Lagu</string>
+    <string name="sorry">Maaf, tidak ada hasil yang ditemukan untuk</string>
+    <string name="titel_hint" />
+    <string name="rate_this">Tingkat aplikasi ini</string>
+    <string name="please_wait">Harap tunggu ...</string>
+    <string name="error_result">"kita tidak dapat terhubung ke server.
+Please memeriksa koneksi internet Anda dan coba lagi.tidak"</string>
+    <string name="setting_label">PENGATURAN</string>
+    <string name="input_hint">Artis, Judul, Album ...</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="quit">Apakah Anda benar-benar ingin Keluar?</string>
+    <string name="exit">Keluar</string>
+    <string name="menu_refresh">Segarkan Perpustakaan</string>
+    <string name="search">CARI</string>
+    <string name="download">Mendownload</string>
+    <string name="redownload_mess">Anda sudah download this.Do Anda ingin men-download lagi?</string>
+    <string name="downloading">Mendownload ...</string>
+    <string name="yes">YA</string>
+    <string name="no">TIDAK</string>
+    <string name="no_internet">Periksa koneksi Anda</string>
+    <string name="cleared">Sejarah dibersihkan</string>
+    <string name="clear_confirm_mess">"Apakah Anda benar-benar ingin menghapus sejarah? 
+Perhatikan bahwa aplikasi tidak akan memperingatkan Anda jika Anda memiliki lagu yang sudah di-download untuk men-download."</string>
+    <string name="clear_hist_dial_titel">Hapus Riwayat</string>
+    <string name="updating_lib">Memperbarui Perpustakaan ...</string>
+    <string name="rep_bug">Hubungi pengembang</string>
+    <string name="lib_rescan">Refresh perpustakaan</string>
+    <string name="clear_histo">Hapus Riwayat</string>
+    <string name="eula">
+        The official permitted use of this software is restricted to the audio files freely available in public domain! You agree to use this software in terms and frames as specified by the Laws of your country of residence, the Google Android Market and your carriers Terms of Services. No Mp3 files are cached or stored on our servers, all data comes from various different sources on the internet. Do not download copyrighted material without permission. we are simply a music search engine designed for LEGAL entertainment purposes only. An illegal use of this tool is strictly phobted. You alone are responsible for your actions.
+    </string>
+</resources>

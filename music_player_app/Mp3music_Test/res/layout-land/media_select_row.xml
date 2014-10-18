@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:gravity="center_vertical" android:id="@id/row_icon" android:layout_width="40.0dip" android:layout_height="48.0dip" android:layout_marginLeft="4.0dip" android:scaleType="center" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/row_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="12.0sp" android:textColor="#ffff99ff" android:gravity="center_vertical" android:id="@id/row_artist" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffffff99" android:gravity="center_vertical" android:id="@id/row_album" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout style="@style/VerticalDividerForList" />
+        <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/row_options_button" android:background="@drawable/button_options_bkgnd" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/button_options" android:scaleType="center" android:contentDescription="@string/button_options" />
+    </LinearLayout>
+</LinearLayout>

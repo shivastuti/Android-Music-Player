@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" > 
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp" />
+
+     <ProgressBar
+         android:id="@+id/progressBar1"
+         style="?android:attr/progressBarStyleHorizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/title"
+         android:layout_marginTop="25dp"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp" />
+
+     <LinearLayout
+         android:id="@+id/liner"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/progressBar1"
+         android:layout_marginTop="5dp" >
+
+         <TextView
+             android:id="@+id/txtPercent"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="TextView"
+             android:gravity="left"
+             android:textSize="11dp"
+             android:layout_weight="1.0"
+             android:paddingLeft="10dp" />
+
+         <TextView
+             android:id="@+id/txtPro"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="TextView"
+             android:textSize="11dp"
+             android:gravity="right"
+             android:layout_weight="1.0"
+             android:paddingRight="10dp" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/liner"
+         android:layout_marginTop="25dp" >
+
+         <Button
+             android:id="@+id/cancel"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Cancel"
+             android:gravity="center"
+             android:layout_weight="1" />
+         <Button
+             android:id="@+id/background"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Background"
+             android:gravity="center"
+             android:layout_weight="1" />
+     </LinearLayout>
+     
+</RelativeLayout>

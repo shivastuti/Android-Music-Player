@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/bg2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+    <ProgressBar android:id="@id/progressBar1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="57.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="?android:attr/progressBarStyleLarge" />
+    <TextView android:textColor="#ffffffff" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/please_wait" android:layout_below="@id/progressBar1" android:layout_centerHorizontal="true" />
+    <com.google.ads.AdView android:gravity="center" android:id="@id/ad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" ads:adSize="BANNER" ads:adUnitId="a151a45aa5add8c" ads:loadAdOnCreate="true" />
+</RelativeLayout>
